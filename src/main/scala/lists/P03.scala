@@ -8,6 +8,7 @@ package lists
     scala> nth(2, List(1, 1, 2, 3, 5, 8))
     res0: Int = 2
  */
+
 object P03 {
 
   def nth[A](n: Int, list: List[A]): A = {
