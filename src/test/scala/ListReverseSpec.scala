@@ -13,4 +13,15 @@ class ListReverseSpec extends FlatSpec {
 
   }
 
+  "Reverse of List(42)" should "be List(42)" in {
+
+    assert(reverse(List(42)) == List(42))
+
+  }
+
+  "Reverse of List()" should "be List()" in {
+
+    assert(reverse(List()) == List())
+  }
+
 }
